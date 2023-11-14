@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">
+
+  <title>Funding Opportunities</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .textbox {
+      width: 100%;
+      box-sizing: border-box;
+      overflow: hidden; /* Clear floats */
+    }
+
+    .textbox img {
+      float: left;
+      max-width: 100px; /* Adjust the width as needed */
+      height: auto;
+      margin-right: 10px;
+    }
+
+    .textbox-content {
+      margin-left: 40px; 
+    }
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+    <header>
+        <h1>Business Intelligence</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="funding.html">Funding Opportunities</a>
+        <a href="businessanalysis.html">Business Analysis</a>
+        <a href="education.html">Educational Strategies</a>
+        <a href="form.html">Investment Calculator</a>
+        <a href="#contact">Contact Us</a>
+    </nav><br/>
+
+    <h1>Fuel Your Ideas: Innovative Funding Solutions</h1>
+    <p> Explore funding avenues crafted to support groundbreaking projects and entrepreneurial ventures.</p>
+
+
+  <section>
+    <div class="textbox">
+      <img src="{{ url_for('static', filename='images/african.png') }}" width="100" height="100" alt="Absa">
+      <div class="textbox-content">
+        <h2>African Bank</h2>
+        <p>In all our interactions, we commit to open and honest communication, whether it be written or verbal.
+We are open to considering different viewpoints and we commit to expressing our own, respectfully.
+            <a href="https://www.africanbank.co.za/en/home/">Apply here!</a></p>
+      </div>
+    </div><br/>
+
+    <div class="textbox">
+      <img src="{{ url_for('static', filename='images/growth.png') }}" width="100" height="100" alt="Edge growth">
+      <div class="textbox-content">
+        <h2>Edge Growth</h2>
+        <p>Edge Growth is an investment and advisory firm focused on fueling the growth of SMMEs.
+            By providing financial support, strategic guidance, and mentorship, Edge Growth plays a pivotal role in driving innovation and 
+            creating sustainable economic impact within the small business sector.
+            <a href="https://edgegrowth.com/funding-criteria/">Apply here!</a></p>
+      </div>
+    </div><br/>
+
+    <div class="textbox">
+        <img src="{{ url_for('static', filename='images/sab-foundation.png') }}" width="100" height="100" alt="sab">
+        <div class="textbox-content">
+          <h2>SAB Foundation</h2>
+          <p>SAB Foundation drives social impact by supporting SMMEs through funding and mentorship, 
+            particularly in sectors like agriculture, contributing to sustainable entrepreneurship.
+            <a href="https://www.sabfoundation.co.za/tholoana-enterprise-fund">Apply here!</a></p>
+        </div>
+      </div><br/>
+
+      <div class="textbox">
+        <img src="{{ url_for('static', filename='images/fnb-logo.png') }}" width="100" height="100" alt="fnb">
+        <div class="textbox-content">
+          <h2>First National Bank</h2>
+          <p>FNB champions SMMEs with tailored financial solutions, empowering entrepreneurs 
+            through business loans and digital tools, fostering innovation and economic growth.
+            <a href="https://www.fnb.co.za/invest/cash-intelligence-investment.html?gad_source=1&gclid=CjwKCAiA6byqBhAWEiwAnGCA4DdfAJ9_nEmJm6gsSYhjtHkKLEbbBlzdxBOUalfu34lSlWKm50J8bxoC_XUQAvD_BwE&gclsrc=aw.ds">Apply here!</a></p>
+        </div>
+      </div><br/>
+
+      <div class="textbox">
+        <img src="{{ url_for('static', filename='images/NationalEmpowermentFund.gif') }}" width="100" height="100" alt="NEF">
+        <div class="textbox-content">
+          <h2>National Empowerment Fund</h2>
+          <p>NEF, a government initiative, promotes economic transformation by providing 
+            funding to black-owned SMMEs, fostering entrepreneurship and contributing to a 
+            more equitable business landscape. <a href="https://www.nefcorp.co.za/funding-solutions/how-to-apply-for-funding/">Apply here!</a> </p>
+        </div>
+      </div>
+  </section>
+    <!-- <footer>
+        <p>&copy; 2023 @Business Intelligence</p>
+    </footer> -->
+
+
+</body>
+</html>

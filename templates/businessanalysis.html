@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Business Intelligence</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+
+
+        table {
+            margin: auto;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Business Intelligence</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="funding.html">Funding Opportunities</a>
+        <a href="businessanalysis.html">Business Analysis</a>
+        <a href="education.html">Educational Strategies</a>
+        <a href="form.html">Investment Calculator</a>
+        <a href="#contact">Contact Us</a>
+    </nav><br/>
+
+    <h1>Welcome to Business Intelligence</h1>
+    <p>Empowering Growth, Transforming Futures</p><br/>
+
+
+        <table border="1">
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Total Spending</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in total.values %}
+                <tr>
+                    <td>{{ row[0] }}</td>
+                    <td>{{ row[1] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    
+    <img src="{{ plot }}" alt="Bank Statement Visualization">
+    <h2>{{highest_spending_month}}</h2>
+    
+
+
+
+    <!-- <footer>
+        <p>&copy; 2023 @Business Intelligence</p>
+    </footer> -->
+
+ 
+</body>
+
+</html>

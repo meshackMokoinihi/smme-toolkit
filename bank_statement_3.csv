@@ -1,0 +1,7 @@
+Date,Transaction Type,Amount,Description
+2023-03-01,Deposit,10000.00,Salary
+2023-03-05,Withdrawal,100.00,Groceries
+2023-03-10,Withdrawal,500.00,Lunch 
+2023-03-15,Deposit,200.00,Reimbursement
+2023-03-20,Withdrawal,120.00,Snacks
+2023-03-25,Withdrawal,2000.00,Dinner

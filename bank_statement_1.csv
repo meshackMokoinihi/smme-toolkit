@@ -1,0 +1,7 @@
+Date,Transaction Type,Amount,Description
+2023-02-01,Deposit,1000.00,Salary
+2023-02-05,Withdrawal,150.00,Dining Out
+2023-02-10,Withdrawal,30.00,Transportation
+2023-02-15,Deposit,300.00,Online Sale
+2023-02-20,Withdrawal,200.00,Shopping
+2023-02-25,Deposit,1000.00,Investment Dividend

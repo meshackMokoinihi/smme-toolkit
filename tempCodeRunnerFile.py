@@ -1,0 +1,1 @@
+, labels=combined_df.groupby('Date').sum().index

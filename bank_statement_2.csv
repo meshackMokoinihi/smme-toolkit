@@ -1,0 +1,7 @@
+Date,Transaction Type,Amount,Description
+2023-01-01,Deposit,5000.00,Salary
+2023-01-05,Withdrawal,100.00,Groceries
+2023-01-10,Withdrawal,50.00,Coffee Shop
+2023-01-15,Deposit,200.00,Reimbursement
+2023-01-20,Withdrawal,120.00,Utilities
+2023-01-25,Withdrawal,2000.00,Consulting Fee
